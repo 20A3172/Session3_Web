@@ -66,8 +66,8 @@ df = pd.DataFrame(
   columns=['a','b']
 )
 
-    st.table(df.style.highlight_max(axis=0)) #表で表示
-    #st.line_chart(df) #線グラフで表示
-    #st.area_chart(df) #塗りつぶし線グラフで表示
-    #st.bar_chart(df) #棒グラフで表示
-    #st.map(df)
+st.table(df.style.highlight_max(axis=0)) #表で表示
+#st.line_chart(df) #線グラフで表示
+#st.area_chart(df) #塗りつぶし線グラフで表示
+#st.bar_chart(df) #棒グラフで表示
+#st.map(df)
