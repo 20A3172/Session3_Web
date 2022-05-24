@@ -21,9 +21,9 @@ st.write('Finish Loading!')
 
 # 画像表示
 st.write('Display Image:')
-img = Image.open('jetson_nano_2gb.jpg')
+img = Image.open('Emily.jpg')
 if st.checkbox('show Image'):
-    st.image(img,caption='Jetson Nano 2GB',use_column_width=True)
+    st.image(img,caption='Emily',use_column_width=True)
 
 
 st.sidebar.write('Interactive Wdgets')
