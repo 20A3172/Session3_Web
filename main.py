@@ -15,7 +15,7 @@ bar = st.progress(0)
 for i in range(1,100):
     latest_iteration.text(f'Now Loading {i + 1}')
     bar.progress(i)
-    time.sleep(i)
+    time.sleep(0.01)
 st.write('Finish Loading!')
 
 
